@@ -12,10 +12,10 @@ ssh-add ~/.ssh/id_ed25519
 cat ~/.ssh/id_ed25519.pub
 ```
 
-NOTE: If the command fails and you receive the error invalid format or feature not supported, you may be using a hardware security key that does not support the Ed25519 algorithm. <br> Enter the following command instead.
+NOTE: f you are using a legacy system that doesn't support the Ed25519 algorithm, use this command instead:
 
 ```sh
-ssh-keygen -t ecdsa-sk -C "[Enter e-mail address here]"
+ssh-keygen -t rsa -b 4096 -C "[Enter e-mail address here]"
 ```
 
 ### To create a new repository
