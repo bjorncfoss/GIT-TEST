@@ -12,7 +12,7 @@ ssh-add ~/.ssh/id_ed25519
 cat ~/.ssh/id_ed25519.pub
 ```
 
-NOTE: f you are using a legacy system that doesn't support the Ed25519 algorithm, use this command instead:
+NOTE: you are using a legacy system that doesn't support the Ed25519 algorithm, use this command instead:
 
 ```sh
 ssh-keygen -t rsa -b 4096 -C "[Enter e-mail address here]"
