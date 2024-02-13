@@ -1,5 +1,14 @@
 # GIT-TEST
 
+### First Configuration Step
+
+Insert the following commands on bash/zsh
+
+```sh
+git config --global user.name "[Enter GitHub username]"
+git config --global user.email "[Enter GitHub user e-mail address]"
+```
+
 ### Adding a new SSH Key to your GitHub Account
 ```sh
 ssh-keygen -t ed25519 -C "[Enter e-mail address here]"
