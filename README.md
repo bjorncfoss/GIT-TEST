@@ -44,6 +44,3 @@ git remote add origin git@github.com:bjorncfoss/GIT-TEST.git
 git branch -M main
 git push -u origin main
 ```
-
-
-Testing commit on IntelliJ
