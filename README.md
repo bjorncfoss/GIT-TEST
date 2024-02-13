@@ -1,6 +1,7 @@
 # GIT-TEST
 
-Another line added
+Another line added <br>
+Line added on IDEA.
 
 ### First Configuration Step
 
