@@ -15,6 +15,7 @@ ssh-keygen -t ed25519 -C "[Enter e-mail address here]"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 ```
+NOTE: Take note of your SSH-Key, it might need to be used when you want to clone a repository.
 
 ### To verify for existing SSH Keys
 ```shell
