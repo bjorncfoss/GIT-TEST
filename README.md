@@ -45,3 +45,5 @@ git remote add origin git@github.com:bjorncfoss/GIT-TEST.git
 git branch -M main
 git push -u origin main
 ```
+
+NOTE: IDE of choice: IntelliJ IDEA (Either Community or Ultimate Versions)
