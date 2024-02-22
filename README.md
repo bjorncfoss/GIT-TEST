@@ -1,5 +1,7 @@
 # GIT-TEST
 
+Line Test
+
 ### First Configuration Step
 
 Insert the following commands on bash/zsh
